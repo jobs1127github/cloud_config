@@ -1,0 +1,16 @@
+﻿##注意该文件一定要以utf-8的格式保存#
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: cloud-config-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: cloud-config-test #测试环境
