@@ -14,3 +14,9 @@ spring:
   profiles: test
   application:
     name: cloud-config-test #测试环境
+
+---
+spring:
+  profiles: product
+  application:
+    name: cloud-config-product #生产环境
